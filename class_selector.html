@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Selector</title>
+    <style>
+        .aic {
+            color:darksalmon;
+        }
+        .bcc , .iot {
+            color:royalblue;
+        }
+        p.aic{
+            color:rgb(9, 135, 81);
+        }
+    </style>
+</head>
+<body>
+    <h1>Class Selector</h1>
+    <p>GIAIC Offers the following courses</p>
+    
+    <div>
+        <p class="aic">1. Artificial Intelligence</p>
+    </div>
+    <div>
+        <p class="bcc">2. Blockchain</p>
+    </div>
+    <div>
+        <p class="cnc">3. Cloud Native & Computing</p>
+    </div>
+    <div>
+        <p class="iot">4. Internet of Things</p>
+    </div>
+
+    <p>Below is the list of students</p>
+
+    <table border="2px" width="800px">
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Roll No.</th>
+            <th>Courses</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Shoaib</td>
+            <td>GIAIC01</td>
+            <td>
+                <ol>
+                    <li class="aic">Artificail Intelligence</li>
+                    <li class="cnc">Cloud Native & Computing</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Shehla</td>
+            <td>GIAIC02</td>
+            <td>
+                <ol>
+                    <li class="iot">Internet of Things</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ahmed</td>
+            <td>GIAIC03</td>
+            <td>
+                <ol>
+                    <li class="aic">Artificial Intelligence</li>
+                    <li class="cnc">Cloud Native & Computing</li>
+                    <li class="iot"> Internet of Things</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Sana</td>
+            <td>GIAIC04</td>
+            <td>
+                <ol>
+                    <li class="iot"><p>Internet of Things</p></li>
+                    <li class="aic"><p>Artificial Intelligence</p></li>
+                    <li class="cnc"><p>Cloud Native & Computing</p></li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Ayan</td>
+            <td>GIAIC05</td>
+            <td>
+                <ol>
+                    <li class="iot">Internet of Things</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
